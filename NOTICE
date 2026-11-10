@@ -1,0 +1,13 @@
+QCAR
+Copyright (c) 2024-2026 Van Tien Nguyen and Panagiotis Markopoulos
+Licensed under the MIT License (see LICENSE).
+
+This product includes software adapted from Qiskit (https://github.com/Qiskit/qiskit),
+Copyright IBM 2017-2022, licensed under the Apache License, Version 2.0
+(see LICENSE-APACHE-2.0.txt). The adapted files are:
+
+  qcar/quantum/_qiskit/linear_system_matrix.py   (from Qiskit's linear-solvers LinearSystemMatrix)
+  qcar/quantum/_qiskit/hamiltonian_matrix.py     (from Qiskit's linear-solvers NumPyMatrix)
+  qcar/quantum/_qiskit/exact_reciprocal.py       (from qiskit.circuit.library.ExactReciprocal)
+
+Each adapted file carries the original copyright notice and a statement of modification.

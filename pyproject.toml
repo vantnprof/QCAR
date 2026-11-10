@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qcar"
+version = "1.0.0"
+description = "Quantum-to-Classical Ambiguity Resolution: reconstructing classical ridge-regression predictors from amplitude-encoded quantum states"
+readme = "README.md"
+license = "MIT AND Apache-2.0"
+license-files = ["LICENSE", "LICENSE-APACHE-2.0.txt", "NOTICE"]
+authors = [
+  { name = "Van Tien Nguyen", email = "tien.nguyen@utsa.edu" },
+  { name = "Panagiotis Markopoulos", email = "panagiotis.markopoulos@utsa.edu" },
+]
+requires-python = ">=3.11"
+dependencies = [
+  "qiskit>=2.1,<2.2",
+  "qiskit-aer>=0.17,<0.18",
+  "qiskit-ibm-runtime>=0.40,<0.41",
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "scikit-learn>=1.5",
+  "pandas>=2.2",
+  "matplotlib>=3.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.urls]
+Repository = "https://github.com/vantnprof/QCAR"
+
+[tool.setuptools.packages.find]
+include = ["qcar*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: runs a small QAOA simulation (~10 s)"]

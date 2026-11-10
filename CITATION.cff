@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "QCAR: Quantum-to-Classical Ambiguity Resolution"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/vantnprof/QCAR"
+authors:
+  - family-names: Nguyen
+    given-names: Van Tien
+    affiliation: The University of Texas at San Antonio
+    orcid: "https://orcid.org/0009-0000-8834-9415"
+  - family-names: Markopoulos
+    given-names: Panagiotis
+    affiliation: The University of Texas at San Antonio
+preferred-citation:
+  type: article
+  title: "QCAR: Quantum-to-Classical Ambiguity Resolution for Reconstructing Classical Predictors from Amplitude-Encoded Regression States"
+  authors:
+    - family-names: Nguyen
+      given-names: Van Tien
+    - family-names: Markopoulos
+      given-names: Panagiotis
+  journal: "ACM Transactions on Quantum Computing"
+  year: 2026
+  notes: "Submitted"

@@ -1,0 +1,10 @@
+# Exact versions used for the paper's experiments (recorded in the 2025 run logs; Python 3.13.5).
+qiskit==2.1.0
+qiskit-aer==0.17.1
+qiskit-ibm-runtime==0.40.1
+numpy==2.3.1
+scipy==1.16.0
+scikit-learn==1.7.1
+pandas==2.3.2
+matplotlib==3.10.3
+pytest==9.2.0
